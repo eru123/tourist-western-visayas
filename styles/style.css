@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+img.full-width {
+  width: 100%;
+}
+
+.bg-1 {
+  background: url("../images/Homepage/3_20201229_160051_0002.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-2 {
+  background-image: url("../images/Homepage/20201229_152728_0000.png");
+  height: 400px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-container {
+  margin: 20px auto;
+  max-width: 400px;
+  padding: 5px 0;
+  border-left: 2px solid #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main-container ul.provinces li {
+  color: #ff80ff;
+  font-size: 1.3em;
+}
+
+.main-container ul.provinces li a {
+  color: #ff80ff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.container {
+  margin: 10px 10px;
+}
+
+.top-info {
+  margin: 5px auto 20px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.3em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.top-info .pink {
+  color: #ff80ff;
+  text-transform: capitalize;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.top-info .black {
+  color: #333;
+  text-align: left;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.info .header {
+  color: #ff80ff;
+  text-transform: capitalize;
+  font-size: 1.3em;
+}
+
+.info .text {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #333;
+  font-size: 1em;
+  word-wrap: break-word;
+}
+
+.info > div {
+  margin: 0 5px;
+}
+
+.info > div > div {
+  margin-bottom: 20px;
+}
+
+.info > div > div .images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info > div > div .images .img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-right: 3px;
+  max-height: 70px;
+  overflow-y: hidden;
+}
+
+.info > div > div .images .img img {
+  width: 100%;
+}
+
+.info .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.info .left .festival .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.info .left .festival .content .img {
+  -webkit-box-flex: 1.5;
+      -ms-flex: 1.5;
+          flex: 1.5;
+  margin-right: 5px;
+}
+
+.info .left .festival .content .img img {
+  width: 100%;
+  height: auto;
+}
+
+.info .left .festival .content .text {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.info .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+}
+
+footer a {
+  display: block;
+  color: #ff80ff;
+  background: none;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 20px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+footer a:hover {
+  background: #ff80ff;
+  color: #fff;
+}
+
+footer .text {
+  padding: 40px;
+  font-weight: bold;
+  display: block;
+  color: #fff;
+  background: #ff80ff;
+}
